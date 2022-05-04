@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: montserrat;
+    scroll-behavior: smooth;
 }
 header{
     position: fixed; 
@@ -233,7 +234,7 @@ header{
 }
 
 .about_text{
-    max-width: 500px;
+    max-width: 900px;
     width: 100%;
     min-height: 500px;
 /*     padding: 50px 0; */
@@ -270,15 +271,17 @@ header{
     border-radius: 100%;
     overflow: hidden;
 /*     object-fit: contain; */
-    width: 200px;
-    height: 200px;
+    width: 40vw;
+    max-width: 500px;
+    max-height: 500px;
+    height: 40vw;
     float: left;
     
 }
 .about_text_img_border{
     margin:20px;
-    width: 200px;
-    height: 200px;
+    width: max-content;
+    height: max-content;
     padding: 5px;
     float: left; 
     border: 3px solid #118858;
